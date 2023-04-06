@@ -5,7 +5,7 @@
     "date": "31-1-2023",
     "category": "frontend",
     "path": "article-1",
-    "popular": false
+    "popular": true
   },
   {
     "title": "React v18",
@@ -13,7 +13,7 @@
     "date": "31-1-2023",
     "category": "frontend",
     "path": "article-2",
-    "popular": true
+    "popular": false
   },
   {
     "title": "Next v13",
@@ -29,7 +29,7 @@
     "date": "31-1-2023",
     "category": "frontend",
     "path": "article-4",
-    "popular": false
+    "popular": true
   },
   {
     "title": "Data Structures",
@@ -53,7 +53,7 @@
     "date": "31-1-2023",
     "category": "CS fundamentals",
     "path": "article-7",
-    "popular": true
+    "popular": false
   },
   {
     "title": "Web architectures",
@@ -69,6 +69,6 @@
     "date": "31-1-2023",
     "category": "backend",
     "path": "article-9",
-    "popular": true
+    "popular": false
   }
 ]
