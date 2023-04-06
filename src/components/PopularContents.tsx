@@ -1,8 +1,8 @@
-import { getAllContents } from "@/service/contents";
+import { getPopularContents } from "@/service/contents";
 import ContentsGrid from "./ContentsGrid";
 
 export default async function PopularContents() {
-  const contents = await getAllContents();
+  const contents = await getPopularContents();
   return (
     <section>
       <h2>PopularContents </h2>

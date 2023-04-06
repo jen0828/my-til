@@ -13,7 +13,7 @@
     "date": "31-1-2023",
     "category": "frontend",
     "path": "2",
-    "popular": false
+    "popular": true
   },
   {
     "title": "Next v13",
@@ -21,7 +21,7 @@
     "date": "31-1-2023",
     "category": "frontend",
     "path": "3",
-    "popular": false
+    "popular": true
   },
   {
     "title": "JavaScript",
@@ -35,40 +35,40 @@
     "title": "Data Structures",
     "description": "Data Structures",
     "date": "31-1-2023",
-    "category": "frontend",
+    "category": "CS fundamentals",
     "path": "5",
-    "popular": false
+    "popular": true
   },
   {
     "title": "Algorithms",
     "description": "Algorithms",
     "date": "31-1-2023",
-    "category": "frontend",
+    "category": "CS fundamentals",
     "path": "6",
-    "popular": false
+    "popular": true
   },
   {
-    "title": "Programming paradigm",
-    "description": "Programming paradigm",
+    "title": "Programming paradigms",
+    "description": "Programming paradigms",
     "date": "31-1-2023",
-    "category": "frontend",
+    "category": "CS fundamentals",
     "path": "7",
-    "popular": false
+    "popular": true
   },
   {
     "title": "Web architectures",
     "description": "Web architectures",
     "date": "31-1-2023",
-    "category": "frontend",
+    "category": "CS fundamentals",
     "path": "8",
-    "popular": false
+    "popular": true
   },
   {
     "title": "Database normalisation",
     "description": "Latest React update",
     "date": "31-1-2023",
-    "category": "frontend",
+    "category": "backend",
     "path": "9",
-    "popular": false
+    "popular": true
   }
 ]
