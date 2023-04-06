@@ -9,7 +9,7 @@ export default function ContentCard({
   return (
     <Link href={`/posts/${path}`}>
       <Image
-        src={`/images/contents/${path}.png`}
+        src={`/images/contents/${path}.jpg`}
         alt={title}
         width={300}
         height={200}
