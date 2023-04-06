@@ -4,7 +4,7 @@
     "description": "Data Binding in React",
     "date": "31-1-2023",
     "category": "frontend",
-    "path": "1",
+    "path": "image1",
     "popular": false
   },
   {
@@ -12,7 +12,7 @@
     "description": "Latest React update",
     "date": "31-1-2023",
     "category": "frontend",
-    "path": "2",
+    "path": "image2",
     "popular": true
   },
   {
@@ -20,7 +20,7 @@
     "description": "Latest Next update",
     "date": "31-1-2023",
     "category": "frontend",
-    "path": "3",
+    "path": "image3",
     "popular": true
   },
   {
@@ -28,7 +28,7 @@
     "description": "JavaScript",
     "date": "31-1-2023",
     "category": "frontend",
-    "path": "4",
+    "path": "image4",
     "popular": false
   },
   {
@@ -36,7 +36,7 @@
     "description": "Data Structures",
     "date": "31-1-2023",
     "category": "CS fundamentals",
-    "path": "5",
+    "path": "image5",
     "popular": true
   },
   {
@@ -44,7 +44,7 @@
     "description": "Algorithms",
     "date": "31-1-2023",
     "category": "CS fundamentals",
-    "path": "6",
+    "path": "image6",
     "popular": true
   },
   {
@@ -52,7 +52,7 @@
     "description": "Programming paradigms",
     "date": "31-1-2023",
     "category": "CS fundamentals",
-    "path": "7",
+    "path": "image7",
     "popular": true
   },
   {
@@ -60,7 +60,7 @@
     "description": "Web architectures",
     "date": "31-1-2023",
     "category": "CS fundamentals",
-    "path": "8",
+    "path": "image8",
     "popular": true
   },
   {
@@ -68,7 +68,7 @@
     "description": "Latest React update",
     "date": "31-1-2023",
     "category": "backend",
-    "path": "9",
+    "path": "image9",
     "popular": true
   }
 ]
