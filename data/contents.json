@@ -16,16 +16,16 @@
     "popular": false
   },
   {
-    "title": "Next v13",
-    "description": "Latest Next update",
+    "title": "React v18",
+    "description": "Latest React update",
     "date": "31-1-2023",
     "category": "frontend",
     "path": "article-3",
     "popular": true
   },
   {
-    "title": "JavaScript",
-    "description": "JavaScript",
+    "title": "Next v13",
+    "description": "Latest Next update",
     "date": "31-1-2023",
     "category": "frontend",
     "path": "article-4",
@@ -56,12 +56,12 @@
     "popular": false
   },
   {
-    "title": "React v18",
-    "description": "Latest React update",
+    "title": "JavaScript",
+    "description": "JavaScript",
     "date": "31-1-2023",
     "category": "frontend",
     "path": "article-8",
-    "popular": true
+    "popular": false
   },
 
   {
