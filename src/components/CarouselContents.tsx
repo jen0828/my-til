@@ -5,9 +5,9 @@ import MultiCarousel from './MultiCarousel';
 export default async function CarouselContents() {
   const contents = await getRestContents();
   return (
-    <section className='my-4'>
+    <section className="my-4">
+      <h2 className="text-2xl font-bold my-2">Recently Published</h2>
       <MultiCarousel>
-        <h2 className='text-2xl font-bold my-2'>Recently Published</h2>
         {contents.map((content) => (
           <ContentCard key={content.path} content={content} />
         ))}
