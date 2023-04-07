@@ -2,6 +2,7 @@
 import { Content } from '@/service/contents';
 import { useState } from 'react';
 import ContentsGrid from './ContentsGrid';
+import Categories from './Categories';
 
 type Props = {
   contents: Content[];
@@ -19,6 +20,11 @@ export default function FilterableContents({ contents, categories }: Props) {
   return (
     <section>
       <ContentsGrid contents={filtered} />
+      <Categories
+        categories={[ALL_CONTENTS, ...categories]}
+        selected={selected}
+        onClick={setSelected}
+      />
     </section>
   );
 }
