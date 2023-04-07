@@ -11,7 +11,7 @@ export default async function ContentPage({ params: { slug } }: Props) {
   return (
     <>
       <h1>{content.title}</h1>
-      <pre>{content.contentTexts}</pre>
+      <pre>{content.texts}</pre>
     </>
   );
 }

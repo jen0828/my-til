@@ -11,7 +11,7 @@ export type Content = {
 };
 
 export type ContentData = Content & {
-  contentTexts: string;
+  texts: string;
 };
 
 export async function getPopularContents(): Promise<Content[]> {
@@ -45,6 +45,6 @@ export async function getContentData(fileName: string): Promise<ContentData> {
 
   if (!metadata) throw new Error(`No ${fileName} exists`);
 
-  const contentTexts = await readFile(filePath, 'utf-8');
-  return { ...metadata, contentTexts };
+  const texts = await readFile(filePath, 'utf-8');
+  return { ...metadata, texts };
 }
