@@ -3,7 +3,7 @@
     "title": "Web architectures",
     "description": "Web architectures",
     "date": "31-1-2023",
-    "category": "CS fundamentals",
+    "category": "fundamentals",
     "path": "article-1",
     "popular": true
   },
@@ -35,7 +35,7 @@
     "title": "Data Structures",
     "description": "Data Structures",
     "date": "31-1-2023",
-    "category": "CS fundamentals",
+    "category": "fundamentals",
     "path": "article-5",
     "popular": true
   },
@@ -43,7 +43,7 @@
     "title": "Algorithms",
     "description": "Algorithms",
     "date": "31-1-2023",
-    "category": "CS fundamentals",
+    "category": "fundamentals",
     "path": "article-6",
     "popular": true
   },
@@ -51,7 +51,7 @@
     "title": "Programming paradigms",
     "description": "Programming paradigms",
     "date": "31-1-2023",
-    "category": "CS fundamentals",
+    "category": "fundamentals",
     "path": "article-7",
     "popular": false
   },
