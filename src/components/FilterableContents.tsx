@@ -18,7 +18,7 @@ export default function FilterableContents({ contents, categories }: Props) {
       : contents.filter((content) => content.category === selected);
 
   return (
-    <section>
+    <section className="flex m-4">
       <ContentsGrid contents={filtered} />
       <Categories
         categories={[ALL_CONTENTS, ...categories]}
