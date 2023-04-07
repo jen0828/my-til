@@ -7,7 +7,7 @@ export default function ContentCard({
   content: { title, description, date, category, path },
 }: Props) {
   return (
-    <Link href={`/posts/${path}`}>
+    <Link href={`/contents/${path}`}>
       <article className="rounded-md overflow-hidden shadow-md hover:shadow-xl">
         <Image
           className="w-full"
