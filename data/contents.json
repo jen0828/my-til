@@ -1,15 +1,15 @@
 [
   {
-    "title": "React",
-    "description": "Data Binding in React",
+    "title": "Web architectures",
+    "description": "Web architectures",
     "date": "31-1-2023",
-    "category": "frontend",
+    "category": "CS fundamentals",
     "path": "article-1",
     "popular": true
   },
   {
-    "title": "React v18",
-    "description": "Latest React update",
+    "title": "React ",
+    "description": "React",
     "date": "31-1-2023",
     "category": "frontend",
     "path": "article-2",
@@ -56,13 +56,14 @@
     "popular": false
   },
   {
-    "title": "Web architectures",
-    "description": "Web architectures",
+    "title": "React v18",
+    "description": "Latest React update",
     "date": "31-1-2023",
-    "category": "CS fundamentals",
+    "category": "frontend",
     "path": "article-8",
     "popular": true
   },
+
   {
     "title": "Database normalisation",
     "description": "Latest React update",
