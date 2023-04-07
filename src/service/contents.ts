@@ -15,6 +15,11 @@ export async function getPopularContents(): Promise<Content[]> {
     .then((posts) => posts.filter((post) => post.popular));
 }
 
+export async function getRestContents(): Promise<Content[]> {
+  return getAllContents() //
+    .then((posts) => posts.filter((post) => !post.popular));
+}
+
 export async function getAllContents(): Promise<Content[]> {
   const filePath = path.join(process.cwd(), 'data', 'contents.json');
   return readFile(filePath, 'utf-8')
