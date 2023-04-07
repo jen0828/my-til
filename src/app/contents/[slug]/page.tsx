@@ -1,4 +1,4 @@
-import MarkDownViewer from '@/components/MarkDownViewer';
+import MarkdownViewer from '@/components/MarkdownViewer';
 import { getContentData } from '@/service/contents';
 
 type Props = {
@@ -12,7 +12,7 @@ export default async function ContentPage({ params: { slug } }: Props) {
   return (
     <>
       <h1>{content.title}</h1>
-      <MarkDownViewer texts={content.texts} />
+      <MarkdownViewer texts={content.texts} />
     </>
   );
 }
