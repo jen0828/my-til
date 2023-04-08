@@ -8,7 +8,7 @@ const LINKS = [
 
 export default function ContactPage() {
   return (
-    <section className="flex flex-col items-center">
+    <section className="flex flex-col items-center my-10">
       <h2 className="text-3xl font-bold my-2">{" Let's Connect!"}</h2>
       <br></br>
       <ul className="flex gap-4 my-2">
@@ -23,7 +23,6 @@ export default function ContactPage() {
           </a>
         ))}
       </ul>
-      <h2 className="text-3xl font-bold my-8">Or Send me an email</h2>
     </section>
   );
 }
