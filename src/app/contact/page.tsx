@@ -1,9 +1,9 @@
 import { AiFillGithub, AiFillLinkedin, AiFillIdcard } from 'react-icons/ai';
 
 const LINKS = [
-  { icon: <AiFillGithub />, url: '' },
-  { icon: <AiFillLinkedin />, url: '' },
-  { icon: <AiFillIdcard />, url: '' },
+  { icon: <AiFillGithub />, url: 'https://github.com/jen0828' },
+  { icon: <AiFillLinkedin />, url: 'https://www.linkedin.com/in/jenny-moon-/' },
+  { icon: <AiFillIdcard />, url: 'https://portfolio-jmoon.netlify.app/' },
 ];
 
 export default function ContactPage() {
