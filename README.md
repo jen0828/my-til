@@ -22,4 +22,4 @@ $ npm run dev
 ```
 
 ## Live on Vercel
-Click here: 
+Click here: https://my-til.vercel.app/
