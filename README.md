@@ -11,6 +11,7 @@ Personal [TIL](https://github.com/jen0828/til)/ tech-blog built with the latest 
 * React Server Components
 * Server-side rendering
 * SSG
+* Tailwind CSS
 
 ## To run next app
 
