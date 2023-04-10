@@ -2,7 +2,7 @@
   {
     "title": "Web architectures",
     "description": "Web architectures",
-    "date": "31-1-2023",
+    "date": "Mar 7, 2023",
     "category": "fundamentals",
     "path": "article-1",
     "popular": true
@@ -10,7 +10,7 @@
   {
     "title": "React ",
     "description": "Data binding in React",
-    "date": "31-1-2023",
+    "date": "Feb 1, 2023",
     "category": "frontend",
     "path": "article-2",
     "popular": false
@@ -18,7 +18,7 @@
   {
     "title": "React v18",
     "description": "Latest React update",
-    "date": "31-1-2023",
+    "date": "Feb 20, 2023",
     "category": "frontend",
     "path": "article-3",
     "popular": true
@@ -26,7 +26,7 @@
   {
     "title": "Next v13",
     "description": "Latest Next update",
-    "date": "31-1-2023",
+    "date": "Mar 3, 2023",
     "category": "frontend",
     "path": "article-4",
     "popular": true
@@ -34,7 +34,7 @@
   {
     "title": "Data Structures",
     "description": "Data Structures",
-    "date": "31-1-2023",
+    "date": "Apr 1, 2023",
     "category": "fundamentals",
     "path": "article-5",
     "popular": true
@@ -42,7 +42,7 @@
   {
     "title": "Algorithms",
     "description": "Algorithms",
-    "date": "31-1-2023",
+    "date": "Feb 30, 2023",
     "category": "fundamentals",
     "path": "article-6",
     "popular": true
@@ -50,7 +50,7 @@
   {
     "title": "Programming paradigms",
     "description": "Programming paradigms",
-    "date": "31-1-2023",
+    "date": "Feb 4, 2023",
     "category": "fundamentals",
     "path": "article-7",
     "popular": false
@@ -58,16 +58,15 @@
   {
     "title": "JavaScript",
     "description": "JavaScript ES6",
-    "date": "31-1-2023",
+    "date": "Mar 10, 2023",
     "category": "frontend",
     "path": "article-8",
     "popular": false
   },
-
   {
     "title": "Database normalisation",
     "description": "Database normalisation ",
-    "date": "31-1-2023",
+    "date": "Jan 3, 2023",
     "category": "backend",
     "path": "article-9",
     "popular": false
