@@ -5,7 +5,7 @@ import MultiCarousel from './MultiCarousel';
 export default async function CarouselContents() {
   const contents = await getRestContents();
   return (
-    <section className="my-4">
+    <section className="mx-4 my-6">
       <h2 className="text-2xl font-bold my-2">Recently Published</h2>
       <MultiCarousel>
         {contents.map((content) => (
