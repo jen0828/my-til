@@ -38,7 +38,7 @@ export async function getContentData(fileName: string): Promise<ContentData> {
     'contents',
     `${fileName}.md`
   );
-  console.log(filePath);
+
   const metadata = await getAllContents().then((contents) =>
     contents.find((content) => content.path === fileName)
   );
