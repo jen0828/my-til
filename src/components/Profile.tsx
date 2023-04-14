@@ -14,7 +14,7 @@ export default function Profile() {
         priority
       />
       <h2 className="text-3xl font-bold mt-2">{"👋 Hi there, I'm Jenny"}</h2>
-      <h3 className="text-xl font-semibold"> Software Enginner</h3>
+      <h3 className="text-xl font-semibold">Software Engineer</h3>
       <p> Welcome to my TIL!</p>
       <Link href="/contact">
         <button className="bg-yellow-500 font-bold rounded-xl py-1 px-4 mt-2">
