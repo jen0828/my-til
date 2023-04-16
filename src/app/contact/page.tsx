@@ -1,3 +1,4 @@
+import ContactForm from '@/components/ContactForm';
 import { SiCodewars, SiLinkedin, SiGithub } from 'react-icons/si';
 
 const LINKS = [
@@ -23,6 +24,8 @@ export default function ContactPage() {
           </a>
         ))}
       </ul>
+      <h2 className='text-3xl font-bold my-8'>Email me</h2>
+      <ContactForm />
     </section>
   );
 }
