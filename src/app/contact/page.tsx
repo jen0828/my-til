@@ -24,7 +24,7 @@ export default function ContactPage() {
           </a>
         ))}
       </ul>
-      <h2 className='text-3xl font-bold my-8'>Email me</h2>
+      <h2 className='text-3xl font-bold mt-8'>Email me</h2>
       <ContactForm />
     </section>
   );
