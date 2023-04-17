@@ -9,7 +9,7 @@ const LINKS = [
 
 export default function ContactPage() {
   return (
-    <section className="flex flex-col items-center my-10">
+    <section className="flex flex-col items-center ">
       <h2 className="text-3xl font-bold my-2">{" Let's Connect!"}</h2>
       <br></br>
       <ul className="flex gap-6 my-2">
