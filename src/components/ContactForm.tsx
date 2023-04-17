@@ -2,6 +2,7 @@
 
 import { ChangeEvent, FormEvent, useState } from 'react';
 import Banner, { BannerData } from './Banner';
+import { sendContactEmail } from '@/service/contact';
 
 type Form = {
   from: string;
@@ -25,14 +26,25 @@ export default function ContactForm() {
 
   const onSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    console.log(form);
-    setBanner({
-      message: 'Message was sent successfully.',
-      state: 'success',
-    });
-    setTimeout(() => {
-      setBanner(null);
-    }, 3000);
+    sendContactEmail(form)
+      .then(() => {
+        setBanner({
+          message: 'Message was sent successfully.',
+          state: 'success',
+        });
+        setForm(DEFAULT_DATA);
+      })
+      .catch((error) => {
+        setBanner({
+          message: 'Sorry, something went wrong!',
+          state: 'error',
+        });
+      })
+      .finally(() => {
+        setTimeout(() => {
+          setBanner(null);
+        }, 3000);
+      });
   };
 
   return (
