@@ -1,3 +1,4 @@
+import { sendEmail } from '@/service/email';
 import * as yup from 'yup';
 
 const bodySchema = yup.object().shape({
@@ -7,9 +8,37 @@ const bodySchema = yup.object().shape({
 });
 
 export async function POST(req: Request) {
-  if (!bodySchema.isValidSync(req.body)) {
-    return new Response(JSON.stringify({ message: 'Error - wrong format' }), {
-      status: 400,
-    });
+  const body = await req.json();
+  console.log(body);
+  if (!bodySchema.isValidSync(body)) {
+    return new Response(
+      JSON.stringify({
+        message: 'Message was not successfully delivered.',
+      }),
+      {
+        status: 400,
+      }
+    );
   }
+  return sendEmail(body)
+    .then(
+      () =>
+        new Response(
+          JSON.stringify({ message: 'Message was sent successfully.' }),
+          {
+            status: 200,
+          }
+        )
+    )
+    .catch((error) => {
+      console.error(error);
+      return new Response(
+        JSON.stringify({
+          message: 'Message was not successfully delivered.',
+        }),
+        {
+          status: 500,
+        }
+      );
+    });
 }
