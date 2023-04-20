@@ -12,6 +12,9 @@ Personal [TIL](https://github.com/jen0828/til)/ tech-blog built with Next.js 13
 * Server-side rendering
 * SSG
 * Tailwind CSS
+* React-markdown
+* Nodemailer - send e-mails with Node.JS
+
 
 ## To run next app
 
