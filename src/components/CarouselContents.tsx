@@ -6,7 +6,7 @@ export default async function CarouselContents() {
   const contents = await getRestContents();
   return (
     <section className="mx-4 my-6">
-      <h2 className="text-2xl font-bold my-2">Recently Published</h2>
+      <h2 className="text-xl font-bold my-2 sm:text-2xl text:sm">Recently Published</h2>
       <MultiCarousel>
         {contents.map((content) => (
           <ContentCard key={content.path} content={content} />
