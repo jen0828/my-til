@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <header className="flex flex-col sm:flex-row justify-between items-center p-4">
       <Link href="/">
-        <h1 className="text-xl font-bold mb-2 sm:mb-0 sm:text-2xl text-sm">
+        <h1 className="text-xl font-bold mb-2 sm:mb-0 sm:text-2xl text-base">
           {"Jenny's TIL"}
         </h1>
       </Link>
