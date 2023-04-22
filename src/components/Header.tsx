@@ -8,7 +8,7 @@ export default function Header() {
           {"Jenny's TIL"}
         </h1>
       </Link>
-      <nav className="flex flex-wrap sm:flex-nowrap text-sm sm:text-base p-2">
+      <nav className="flex flex-wrap sm:flex-nowrap text-base sm:text-base p-2">
         <Link href="/" className="mx-2">
           home
         </Link>
