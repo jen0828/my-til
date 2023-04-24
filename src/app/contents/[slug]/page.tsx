@@ -1,5 +1,5 @@
 import MarkdownViewer from '@/components/MarkdownViewer';
-import { getContentData, getPopularContents } from '@/service/contents';
+import { getContentData, getRecentContents } from '@/service/contents';
 
 type Props = {
   params: {
@@ -18,7 +18,7 @@ export default async function ContentPage({ params: { slug } }: Props) {
 }
 
 export async function generateStaticParams() {
-  const contents = await getPopularContents();
+  const contents = await getRecentContents();
   return contents.map((content) => ({
     slug: content.path,
   }));

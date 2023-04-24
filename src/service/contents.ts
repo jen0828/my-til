@@ -14,7 +14,7 @@ export type ContentData = Content & {
   texts: string;
 };
 
-export async function getPopularContents(): Promise<Content[]> {
+export async function getRecentContents(): Promise<Content[]> {
   return getAllContents() //
     .then((posts) => posts.filter((post) => post.popular));
 }
