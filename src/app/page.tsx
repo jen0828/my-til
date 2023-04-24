@@ -1,5 +1,5 @@
 import CarouselContents from '@/components/CarouselContents';
-import PopularContents from '@/components/PopularContents';
+import RecentContents from '@/components/RecentContents';
 import Profile from '@/components/Profile';
 
 export default function HomePage() {
@@ -7,7 +7,7 @@ export default function HomePage() {
     <>
       <Profile />
       {/* @ts-expect-error Server Component */}
-      <PopularContents />
+      <RecentContents />
       {/* @ts-expect-error Server Component */}
       <CarouselContents />
     </>

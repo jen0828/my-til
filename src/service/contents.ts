@@ -7,7 +7,7 @@ export type Content = {
   date: Date;
   category: string;
   path: string;
-  popular: boolean;
+  recent: boolean;
 };
 
 export type ContentData = Content & {
@@ -16,12 +16,12 @@ export type ContentData = Content & {
 
 export async function getRecentContents(): Promise<Content[]> {
   return getAllContents() //
-    .then((posts) => posts.filter((post) => post.popular));
+    .then((posts) => posts.filter((post) => post.recent));
 }
 
 export async function getRestContents(): Promise<Content[]> {
   return getAllContents() //
-    .then((posts) => posts.filter((post) => !post.popular));
+    .then((posts) => posts.filter((post) => !post.recent));
 }
 
 export async function getAllContents(): Promise<Content[]> {
