@@ -26,7 +26,7 @@ export default function Profile() {
             instance
               .type('Welcome to my TIL!')
               .pause(750)
-              .type(' - Today I learned 📝')
+              .type(' - Today I Learned 📝')
               .pause(1500)
               .delete(19);
             return instance;
