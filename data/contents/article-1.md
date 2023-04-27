@@ -1,40 +1,24 @@
-# Title 
+# Web architectures : Monolithic vs. Headless vs. Composable
 
-*Published on April 7, 2023*
+_Published on March 7, 2023_
 
-## Introduction
+Web architectures have evolved over the years, from the traditional monolithic approach to the more modern headless and composable architecture. Each architecture has its strengths and weaknesses, making it crucial to understand their differences before choosing one that fits your business needs.
 
-In the introduction, I'll introduce the topic of my blog post and provide some background information on it. I might also explain why I'm writing about this topic and what the reader can expect to learn from the post.
+**Monolithic architecture** is the oldest web architecture, where different functions of an application are packaged into a single solution. It was easy to develop, deploy, and manage because it required fewer components. However, it was difficult to scale and update because changing one element of the application required changing the entire solution. This process was time-consuming and risky.
 
-## Overview of the Topic
+On the other hand, **headless architecture** separates the frontend from the backend, creating independent layers that can be updated and managed separately. In other words, the backend exposes APIs that the frontend can consume. This makes it easier to iterate on the frontend experience without impacting the backend, which is especially important in industries where design changes frequently.
 
-In this section, I'll provide an overview of the topic that I'm discussing. I might include some definitions or explain some technical terms that will be used throughout the post.
+Finally, **composable architecture**, also known as **microservices architecture**, is where the application is broken down into multiple, loosely-coupled services. These services can be independently developed, deployed, and scaled. They are also pluggable, meaning they can be replaced with new services, improving the application's agility. Composable architecture allows businesses to continuously improve and add new functionality without affecting the existing services.
 
-## Main Body
 
-In the main body of the post, I'll go into more detail about the topic. Depending on the complexity of the topic, I might break it up into sub-sections with subheadings or write it as one long piece.
+![Microservices architecture](https://user-images.githubusercontent.com/79845719/227002255-243742d5-a627-4443-baf3-69efa3fd0e73.png)
 
-#### Code Example:
-
-Here's an example of how to create a simple JavaScript function that returns the sum of two numbers:
-
-```javascript
-function addNumbers(a, b) {
-    return a + b;
-}
-```
-
-### Subheading 1: 
-
-This is where I'll discuss the first point or sub-topic related to the main topic of the blog post. I might explain how it works, why it's important, or provide some examples to illustrate it.
-
-### Subheading 2: 
-
-This is where I'll discuss the second point or sub-topic related to the main topic of the blog post. Again, I might explain how it works, why it's important, or provide some examples to illustrate it.
+* Image source : [see here](https://www.contentful.com/r/knowledgebase/microservice-architecture/#:~:text=Microservice%20architecture%20is%20also%20referred,best%2Dof%2Dbreed%20architecture.)
 
 ## Conclusion
 
-In the conclusion, I'll summarize the main points I've discussed in the post and restate the importance of the topic. I might also suggest some further reading or resources for readers who want to learn more.
+In conclusion, the choice of web architecture depends on your business needs. If you are looking for a simple, easy-to-manage solution, monolithic architecture may be the way to go. If you need to frequently update the frontend without impacting the backend, headless architecture may be the best choice. Finally, if you require agility and scalability, composable architecture may be the perfect fit for your business.
 
 ---
-Thanks for reading! 
+
+Thanks for reading!
