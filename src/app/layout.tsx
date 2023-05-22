@@ -6,8 +6,11 @@ import Footer from '@/components/Footer';
 const sans = Open_Sans({ subsets: ['latin'] });
 
 export const metadata = {
-  title: " Jenny's TIL ",
-  description: " Jenny's TIL ",
+  title: {
+    default: " Jenny's TIL ",
+    template: " Jenny's TIL | %s ",
+  },
+  description: " Jenny's Today I Learned blog ",
   icons: {
     icon: '/favicon.ico',
   },

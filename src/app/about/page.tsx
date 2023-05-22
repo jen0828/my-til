@@ -1,5 +1,11 @@
 import Profile from '@/components/Profile';
 import Link from 'next/link';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'About Me',
+  description: "Jenny's tech skills and portfolio"
+}
 
 const TITLE_CLASS = 'text-2xl font-bold text-gray-800 my-2';
 export default function AboutPage() {

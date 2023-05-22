@@ -1,5 +1,11 @@
 import ContactForm from '@/components/ContactForm';
 import { SiCodewars, SiLinkedin, SiGithub } from 'react-icons/si';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Contact Me',
+  description: 'Send an email to Jenny',
+};
 
 const LINKS = [
   { icon: <SiGithub />, url: 'https://github.com/jen0828' },
@@ -24,7 +30,7 @@ export default function ContactPage() {
           </a>
         ))}
       </ul>
-      <h2 className='text-3xl font-bold mt-8'>Email me</h2>
+      <h2 className="text-3xl font-bold mt-8">Email me</h2>
       <ContactForm />
     </section>
   );
