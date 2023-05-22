@@ -1,5 +1,6 @@
 import MarkdownViewer from '@/components/MarkdownViewer';
 import { getContentData, getRecentContents } from '@/service/contents';
+import { Metadata } from 'next';
 
 type Props = {
   params: {
@@ -7,11 +8,21 @@ type Props = {
   };
 };
 
+export async function generateMetadata({
+  params: { slug },
+}: Props): Promise<Metadata> {
+  const { title, description } = await getContentData(slug);
+  return {
+    title,
+    description,
+  };
+}
+
 export default async function ContentPage({ params: { slug } }: Props) {
   const content = await getContentData(slug);
   return (
     <>
-      <h1 className='m-4'>#{content.title}</h1>
+      <h1 className="m-4">#{content.title}</h1>
       <MarkdownViewer texts={content.texts} />
     </>
   );
